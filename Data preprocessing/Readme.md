@@ -53,8 +53,9 @@ In any Machine Learning process, Data Preprocessing is that step in which the da
   The [sklearn](https://scikit-learn.org/stable/) library is used for this. Check the code to see implementation.  
   
 * ### Step 4: Encoding the categorical data  
-  Categorical data refers to the information that has specific categories within the dataset. For example, in the given dataset, "Country" is a categorical data while all other entries are numerical. Since ML models are based on mathematical equations, we only need numbers and hence it is needed to change categorical data into numbers (encoding)  
-  This is also done using the sklearn library modules. Refer code.   
+  Categorical data refers to the information that has specific categories within the dataset. For example, in the given dataset, "Country" is a categorical data while all other entries are numerical. Since ML models are based on mathematical equations, we only need numbers and hence it is needed to change categorical data into numbers (encoding).  
+  This is also done using the sklearn library modules. Refer code.     
+  visit [this link](https://towardsdatascience.com/all-about-categorical-variable-encoding-305f3361fd02) to read more about encoding categorical data.    
   
 * ### Step 5: Splitting the dataset  
   Every dataset for Machine Learning model must be split into two separate sets – training set and test set.  
