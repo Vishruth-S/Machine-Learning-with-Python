@@ -15,5 +15,10 @@ Here, x = years of experience, y = salary and b & b0 are the coeffiecients of th
 
 *While training and building a regression model, it is these coefficients which are learned and fitted to training data.*  
 
+<img src="/temp/slr2.png" alt="alt text" width="600" height="600">  
+
+In the figure, the red points are the data points and the blue line is the predicted line for the training data. To get the predicted value, these data points are projected on to the line.
+
+
 
 
