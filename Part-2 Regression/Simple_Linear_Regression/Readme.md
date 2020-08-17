@@ -7,5 +7,5 @@ Linear regression is nothing but a manifestation of the simple line equation
 *y = mx + c*  
 
 The same equation of a line can be re-written as:
-![slr_equation](https://sds-platform-private.s3-us-east-2.amazonaws.com/uploads/36_blog_image_1.png)  
+![slr_equation](/temp/slr1.png)  
 
