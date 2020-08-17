@@ -6,6 +6,6 @@ Simple linear regression is used to estimate the relationship between **two** qu
 Linear regression is nothing but a manifestation of the simple line equation  
 *y = mx + c*  
 
-The same equation of a line can be re-written as:
+The same equation of a line can be re-written as:  
 ![slr_equation](/temp/slr1.png)  
 
