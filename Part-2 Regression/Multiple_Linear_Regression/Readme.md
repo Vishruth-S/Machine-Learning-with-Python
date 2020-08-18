@@ -8,7 +8,7 @@ The equation for Multiple Linear Regression is similar to the simple linear regr
 
 <img src="/temp/mlr1.png" alt="mlr_equation" width="500" >
 
-Consider the given simple dataset which consists of data of 50 startups. The profit is dependent on the 4 independent variables R&D spend, Adminstartion, Marketing & State.  
+Consider the given simple dataset which consists of data of 50 companies. The profit is dependent on the 4 independent variables R&D spend, Adminstartion, Marketing & State.  
 (Note that out of the 4, State is a categorical variable while the others are numerical)  
 Hence, Multiple linear regression can be applied to predict the profit given the values of the 4 variables.  
 
