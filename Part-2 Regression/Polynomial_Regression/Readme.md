@@ -21,4 +21,4 @@ Hence the linear model can be transformed as shown below
 
 <img src="/temp/plr4.png" alt="plr_graph" width="500"> 
 
-It is clear from the plot that the quadratic curve is able to fit the data better than the linear line. Hence it is better to use polynomial regression in this case.
+It is clear from the plot that the curve is able to fit the data better than the linear line. Hence it is better to use polynomial regression in this case.
