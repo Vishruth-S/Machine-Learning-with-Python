@@ -1,0 +1,5 @@
+The dataset consists of lots of images of cats and dogs and is about 250 MB. Since it is impractical to upload such a big file on Github, use the link below to download the dataset  
+
+https://www.dropbox.com/s/hdcq3n6ri9b3rd1/CNN_Dataset.zip?dl=0  
+
+After downloading, extract the file and copy the "dataset" folder into your main working directory.
