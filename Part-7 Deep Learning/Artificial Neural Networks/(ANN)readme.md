@@ -1,7 +1,8 @@
 ## This is a model where we will predict probability where user has clicked an ad or not with some given features from the dataset with the use of Artificial Neural Network
 #This is a really big dataset
 
-#IMPORTIG PACKAGES
+## IMPORTIG PACKAGES
+## numpy and pandas packages helps in handling dataframes and sns , matplotlib helps in visualizing them 
 
 import numpy as np
 
