@@ -8,16 +8,16 @@ The perceptron was intended to be a machine, rather than a program, and while it
 
 As we will see later, the adaline is an improvement of the perceptron algorithm and offers a good opportunity to learn about a popular optimization algorithm in machine learning: gradient descent.
 
-#Artificial Neuron
+# Artificial Neuron
 The idea of artificial neuron first proposed by Warren McCulloch and Walter Pitts in 1943. The model was specifically targeted as a computational model of the "nerve net" in the brain.
 
 Neurons can be understood as the subunits of a neural network in a biological brain. As illustrated below, the signals of variable wights arrive at the dendrites. Those input signals are then accumulated in the cell body of the neuron, and if the accumulated signal exceeds a certain threshold, a output signal is generated that which will be passed on by the axon.
 
-alt
+
 
 One important and pioneering artificial neural network that used the linear threshold function was the perceptron, developed by Frank Rosenblatt. This model already considered more flexible weight values in the neurons, and was used in machines with adaptive capabilities.
 
-#Frank Rosenblatt Single-layer perceptrons
+# Frank Rosenblatt Single-layer perceptrons
 Single-layer perceptrons use Heaviside step function as activation function. Heaviside step function is a discontinuous function whose value is zero for negative argument and one for positive argument as you see below.
 
 
@@ -63,6 +63,7 @@ It is important to note that all weights in the weight vector are being updated 
 Δw0=η(target(i)−output(i))Δw0=η(target(i)−output(i))
 Δw1=η(target(i)−output(i))x(i)1Δw1=η(target(i)−output(i))x1(i)
 Δw2=η(target(i)−output(i))x(i)2Δw2=η(target(i)−output(i))x2(i)
+
 Before we implement the perceptron rule in Python, let us make a simple thought experiment to illustrate how beautifully simple this learning rule really is. In the two scenarios where the perceptron predicts the class label correctly, the weights remain unchanged:
 
 Δwj=η(−1(i)−−1(i))x(i)j=0Δwj=η(−1(i)−−1(i))xj(i)=0
@@ -72,6 +73,7 @@ However, in case of a wrong prediction, the weights are being “pushed” towar
 
 Δwj=η(1(i)−−1(i))x(i)j=η(2)x(i)jΔwj=η(1(i)−−1(i))xj(i)=η(2)xj(i)
 Δwj=η(−1(i)−1(i))x(i)j=η(−2)x(i)jΔwj=η(−1(i)−1(i))xj(i)=η(−2)xj(i)
+
 It is important to note that the convergence of the perceptron is only guaranteed if the two classes are linearly separable. If the two classes can’t be separated by a linear decision boundary, we can set a maximum number of passes over the training dataset (“epochs”) and/or a threshold for the number of tolerated misclassifications.
 
 
